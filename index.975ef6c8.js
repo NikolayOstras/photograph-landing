@@ -29,6 +29,3 @@ if (header) burger.addEventListener("click", ()=>{
 if (burger) burger.addEventListener("click", ()=>{
     burger.classList.toggle("isActive");
 });
-header.addEventListener("click", ()=>{
-    header.classList.remove("isActive");
-});
