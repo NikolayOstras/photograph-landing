@@ -29,3 +29,12 @@ if (header) burger.addEventListener("click", ()=>{
 if (burger) burger.addEventListener("click", ()=>{
     burger.classList.toggle("isActive");
 });
+const links = document.querySelectorAll(".nav__link");
+if (links.length > 0){
+   for(let i=0;i<links.length;i++){
+      links[i].addEventListener("click",()=>{
+         header.classList.remove("isActive");
+         burger.classList.remove("isActive")
+})
+}
+}
