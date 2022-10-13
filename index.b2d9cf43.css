@@ -288,6 +288,11 @@ html {
   background-color: rgba(255, 255, 255, .9);
   padding: 2rem;
 }
+@media (min-width: 767.98px) {
+  .burger__container {
+    z-index: 90;
+  }
+}
 
 .burger {
   width: 2rem;
