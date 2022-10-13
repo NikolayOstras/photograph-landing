@@ -283,14 +283,14 @@ html {
   top: 0;
   left: 0;
   right: 0;
-  z-index: -90;
+  z-index: 90;
   height: 8px;
   background-color: rgba(255, 255, 255, .9);
   padding: 2rem;
 }
 @media (min-width: 767.98px) {
   .burger__container {
-    z-index: 90;
+    z-index: -90;
   }
 }
 
